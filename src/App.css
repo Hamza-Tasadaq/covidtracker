@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.card {
+  border-radius: 0;
+  border: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.infected {
+  border-left: 7px solid #36d4c1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.recovered {
+  border-left: 7px solid green;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.death {
+  border-left: 7px solid red;
 }
-
-.App-link {
-  color: #61dafb;
+.card-header {
+  background-color: transparent !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #36d4c1;
+  margin-right: 10px;
+}
+.btn {
+  background-color: #36d4c1;
+  color: #000000;
+  font-size: large;
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 250px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+.container,
+.graph {
+  margin-bottom: 10px;
 }
