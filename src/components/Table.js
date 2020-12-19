@@ -1,4 +1,5 @@
 import React from 'react'
+import NumberFormat from 'react-number-format';
 
 function Table({ data }) {
     return (
@@ -28,7 +29,7 @@ function Table({ data }) {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div >
     )
 }
 
