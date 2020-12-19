@@ -20,9 +20,9 @@ function Table({ data }) {
                             return (
                                 <tr key={index}>
                                     <th scope="row">{country.Country}</th>
-                                    <td>{country.TotalConfirmed}</td>
-                                    <td>{country.TotalRecovered}</td>
-                                    <td>{country.TotalDeaths}</td>
+                                    <td>    < NumberFormat value={country.TotalConfirmed} displayType={'text'} thousandSeparator={true} renderText={value => < div > {value}</div >} /></td>
+                                    <td>    <NumberFormat value={country.TotalRecovered} displayType={'text'} thousandSeparator={true} renderText={value => <div>{value}</div>} /></td>
+                                    <td>    <NumberFormat value={country.TotalDeaths} displayType={'text'} thousandSeparator={true} renderText={value => <div>{value}</div>} /></td>
                                 </tr>
                             )
                         })}
