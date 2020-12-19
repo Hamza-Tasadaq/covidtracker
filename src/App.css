@@ -3,13 +3,13 @@
   border: none;
 }
 .infected {
-  border-left: 7px solid #36d4c1;
+  border-left: 7px solid rgba(0, 0, 255, 0.5);
 }
 .recovered {
-  border-left: 7px solid green;
+  border-left: 7px solid rgba(0, 255, 0, 0.5);
 }
 .death {
-  border-left: 7px solid red;
+  border-left: 7px solid rgba(255, 0, 0, 0.5);
 }
 .card-header {
   background-color: transparent !important;

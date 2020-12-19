@@ -22,8 +22,8 @@ export default function Chart({ chartData }) {
             ],
             hoverBackgroundColor: [
                 'rgba(0, 0, 255, 0.7)',
-                'rgba(0, 255, 0, 1)',
-                'rgba(255, 0, 0, 1)'
+                'rgba(0, 255, 0, 0.7)',
+                'rgba(255, 0, 0, 0.7)'
             ]
         }]
     };
